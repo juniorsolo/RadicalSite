@@ -76,3 +76,12 @@ body{
     border-radius: 45px;
     text-align: center;
 }
+.btn_scroll:hover{
+	animation: mymove 0.5s;
+	animation-iteration-count: 0.5;
+	bottom:38px;
+}
+@keyframes mymove {
+    from {bottom: 44px;}
+    to {bottom: 38px;}
+}
