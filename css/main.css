@@ -1,0 +1,78 @@
+body{
+	margin: 0px;
+}
+#header{
+	background-color:white;
+	height: 110px;
+}
+
+#navbar {
+    float: right;
+    height: 88px;
+    list-style: none outside none;
+    margin: 0 auto;
+    padding: 0;
+    width: 620px;
+	display: inline-flex;
+}
+
+#conteudo{
+	background-color:#ffcc00;
+	height: 800px;
+}
+
+#footer{
+	background-color: #000000;
+    bottom: 0;
+    display: block;
+    height: 87px;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.divDireitos{
+	color:#FFFFFF;
+	width: 170px;
+    font-size: 0.8em;
+	font-style:italic;
+	margin-top: 30px;
+	margin-left: 20%;
+}
+.direitos{
+	color:#FFFFFF;
+	font-size:1.1em;
+	font-style:normal;
+}
+#contatos{
+	float:right;
+	color:#FFFFFF;
+	display: inline-flex;
+	margin-top: -30px;
+    margin-right: 10px;
+}
+.bt-footer{
+	border-right: 1px solid white;
+}
+.btn_scroll {
+    background-color: #FFFFFF;
+    bottom: 44px;
+    color: #000000;
+    display: block;
+    font-family: 'Lintel-Regular';
+    font-size: 13px;
+    font-style: italic;
+    height: 65px;
+    left: 50%;
+    line-height: 14px;
+    margin-left: -45px;
+    padding: 25px 0 0;
+    position: absolute;
+    text-decoration: none;
+    width: 90px;
+    -moz-border-radius: 45px;
+    -webkit-border-radius: 45px;
+    -khtml-border-radius: 45px;
+    border-radius: 45px;
+    text-align: center;
+}
