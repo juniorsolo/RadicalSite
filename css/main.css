@@ -52,7 +52,10 @@ body{
     margin-right: 10px;
 }
 .bt-footer{
-	border-right: 1px solid white;
+	border-right: 1px solid #3d3d3d;
+    display: block;
+    float: right;
+    height: 87px;
 }
 .btn_scroll {
     background-color: #FFFFFF;
@@ -80,6 +83,15 @@ body{
 	animation: mymove 0.5s;
 	animation-iteration-count: 0.5;
 	bottom:38px;
+}
+.tel{
+	color: #FFFFFF;
+    font-family: "tandelleitalic";
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 40px;
+    padding: 0 31px;
 }
 @keyframes mymove {
     from {bottom: 44px;}
