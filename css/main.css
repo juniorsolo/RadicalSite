@@ -3,9 +3,32 @@ body{
 }
 #header{
 	background-color:white;
-	height: 110px;
+	height: 88px;
+	width: 100%;
+    margin: 0 auto;
+    height: 88px;
+    left: 0px;
+    position: fixed;
+    z-index: 100;
+    display: block;
+    top: 0;
 }
 
+#logo_rt {
+    display: block;
+    float: left;
+    height: 121px;
+    width: 228px;
+    margin: 10px 0 0 15px;
+    outline: none;
+    border: none;
+}
+#logo_rt img {
+    max-width: 228px;
+    width: 100%;
+    outline: none;
+    border: none;
+}
 #navbar {
     float: right;
     height: 88px;
@@ -16,10 +39,45 @@ body{
 	display: inline-flex;
 }
 
+#navbar a {
+    color: #000000;
+    display: block;
+    font-family: 'TandelleItalic';
+    font-size: 28px;
+    font-weight: lighter;
+    height: 88px;
+    letter-spacing: 0.1px;
+    line-height: 85px;
+    list-style: none outside none;
+    text-decoration: none;
+}
+#blog {
+    width: 35px;
+}
+.current_btn_p {
+    background: url(../imgs/all.png) no-repeat scroll -225px -6px rgba(0, 0, 0, 0);
+    display: block;
+    height: 7px;
+    margin: 2px auto 0;
+    width: 12px;
+    display: none;
+}
+.item_navbar {
+    border-right: 1px solid #E5E5E5;
+    float: right;
+    height: 88px;
+    padding: 0 29px;
+    width: 67px;
+}
+
 #conteudo{
 	background-color:#ffcc00;
 	height: 800px;
 }
+
+
+
+/*         Footer       */
 
 #footer{
 	background-color: #000000;
@@ -56,6 +114,21 @@ body{
     display: block;
     float: right;
     height: 87px;
+	width:100px;
+}
+.tel{
+	color: #FFFFFF;
+    font-family: "tandelleitalic";
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 40px;
+    padding: 0 31px;
+	width:200px;
+}
+.icoFacebook{
+    font-size:36px;
+	text-align:center;
 }
 .btn_scroll {
     background-color: #FFFFFF;
@@ -80,20 +153,12 @@ body{
     text-align: center;
 }
 .btn_scroll:hover{
-	animation: mymove 0.5s;
-	animation-iteration-count: 0.5;
-	bottom:38px;
+	animation: mymove 0.2s;
+	animation-iteration-count: 0.8;
+	bottom:30px;
 }
-.tel{
-	color: #FFFFFF;
-    font-family: "tandelleitalic";
-    font-size: 30px;
-    font-weight: bold;
-    letter-spacing: -1px;
-    line-height: 40px;
-    padding: 0 31px;
-}
+
 @keyframes mymove {
     from {bottom: 44px;}
-    to {bottom: 38px;}
+    to {bottom: 30px;}
 }
